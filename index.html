@@ -4,9 +4,169 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
     <title>JSFromZeroToHero</title>
 </head>
 <body>
+     <div id="drag" class="cv instaFade wrap">
+        <header class="header">
+            <div class="conteiner">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                  <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+              </nav>
+
+          <div id="headshot" class="">
+
+            <img src="https://avatars.githubusercontent.com/u/53449161?s=400&u=562212b5eaff664f958aa78e1f3f2f49eb0efd89&v=4" title="Hi, I'm Stepan!" alt="Stepan Bryl"/>
+          </div>
     
+          <div id="name">
+            <h1 class="quickFade delayTwo">Stepan Bryl</h1>
+            <h4 class="quickFade delayThree" id="skills">JS, HTML, PHP, CSS</h4>
+             <h4 class="quickFade delayThree">Junior Developer</h4>
+          </div>
+         <div class="clear"></div>
+        </div>
+        </header>
+    
+        <main class="main">
+            <div class="conteiner">
+          <section>
+            <article>
+              <div class="sectionTitle">
+                <h2>Contact Details</h2>
+              </div>
+    
+              <div class="sectionContent" id="contacts">
+                <ul>
+                    <li>Phone: +375291611662</li>
+                    <li>Discord: Stepan#8061</li>
+                    <li>Email: bryl.step@tut.by</li>
+                </ul>
+              </div>
+            </article>
+            <div class="clear"></div>
+          </section>  
+          <section>
+            <div class="sectionTitle">
+              <h2>Education</h2>
+            </div>
+    
+            <article class="sectionContent" id="education">
+                <h2>Student</h2>
+                <h3>IIT BGUIR </h3>
+                <p>Learning the basics of OOP. Writing a project with use motion design. Writing a project with use ReactJS.</p>
+              </article>
+    
+              <article>
+                 <h2 id="courses"><a href="https://learn.javascript.ru/">JavaScript Manual</a></h2>
+                <h3>Self-education</h3>
+                <p id="projects"><a href="https://github.com/Stepan82-st">Github</a></p>
+              </article>
+              
+               <article>
+                <h2>RSSchools</h2>
+                <p class="subDetails">2022</p>
+                <p><a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/html-css-git.md">RSSchool Course</a></p>
+              </article>
+                            
+               <article id="english">
+                <h2>Languages</h2>
+                 <h3>A2</h3>
+                <p class="subDetails">2020-2022</p>
+              </article>
+            
+            <div class="clear"></div>
+          </section>
+
+          <section>
+            <div class="sectionTitle">
+              <h2>My skills</h2>
+            </div>
+    
+            <div class="sectionContent">
+              <ul class="keySkills">
+                <li>JavaScript, PHP</li>
+                <li>HTML5, CSS3</li>
+                <li>Git, Github</li>
+                <li>VSCode</li>
+              </ul>
+            </div>
+            <div class="clear"></div>
+          </section>
+    
+    
+          <section id="Education">
+            <div class="sectionTitle">
+              <h2>Code Example</h2>
+            </div>
+    
+            <div class="sectionContent">
+              <article>
+                <h2>How to create a function that changes the Image?</h2>
+                <code id="code">
+                  function fFibo(n){<br>
+                  let a = 1;<br>
+                  let b = 1;<br>
+                  for (let i = 3; i <= n; i++) {<br>
+                  let c = a + b;<br>
+                  a = b;<br>
+                  b = c;<br>
+                  }<br>
+                  return b;<br>
+                      }<br>
+
+              </code>
+              </article>
+    
+            </div>
+            <div class="clear"></div>
+          </section>
+    
+          
+          <section>
+            <article>
+              <div class="sectionTitle" id="summary">
+                <h2>About Me</h2>
+              </div>
+    
+              <div class="sectionContent">
+                <p> My goal is to change my job.
+                  I'm like reading books and teach my children.</p> 
+              </div>
+            </article>
+            <div class="clear"></div>
+            
+          </section>
+            </div>
+        </main>
+           <footer class="footer">
+            
+              <div class="nameGit">
+              <a href="https://github.com/Stepan82-st"> <img src="https://www.thesoftwarereport.com/wp-content/uploads/2018/06/github-collab-retina-preview.gif" alt="GitHub"></a>
+              </div>
+              <div class="footer-year">
+                <h4>2022</h4>
+              </div>
+              <div class = "footer-Rsscool">
+                <a href="https://app.rs.school"><img  src="https://rs.school/images/rs_school_js.svg" alt="RSSchool"></a>
+              </div>
+              <div>
+             <div class="clear"></div>
+             </div>
+             
+            </footer>
+      </div>
 </body>
 </html>
