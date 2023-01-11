@@ -10,5 +10,7 @@ function openNav() {
   window.addEventListener('resize',function(){
     if(window.innerWidth > 780){
         document.querySelector(".nav").style.width = "100%";
+    } else if (window.innerWidth < 780){
+        document.querySelector(".nav").style.width = "0%";
     };
 });
