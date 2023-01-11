@@ -143,6 +143,10 @@
       float: center;
       width: 35%;
   }
+  .footer-datamola{
+    width: 25%;
+        align-self:flex-end;
+    }
   .nameGit {
       align-self:flex-start;
       -ms-flex-order: 1;
